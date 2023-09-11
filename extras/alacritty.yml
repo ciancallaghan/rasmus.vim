@@ -21,5 +21,27 @@ schemes:
       magenta:    "#f7b4e1"
       cyan:       "#94c9b2"
       white:      "#eaeaea"
+  rasmus_monochrome: &rasmus_monochrome
+    primary:
+      background: "#1a1a19"
+      foreground: "#d1d1d1"
+    normal:
+      black:      "#333332"
+      red:        "#c5c5c5"
+      green:      "#d0d0d0"
+      yellow:     "#dedede"
+      blue:       "#b3b3b3"
+      magenta:    "#bcbcbc"
+      cyan:       "#b3b3b3"
+      white:      "#d1d1d1"
+    bright:
+      black:      "#4c4c4b"
+      red:        "#d2d2d2"
+      green:      "#e9e9e9"
+      yellow:     "#f7f7f7"
+      blue:       "#cccccc"
+      magenta:    "#d5d5d5"
+      cyan:       "#cccccc"
+      white:      "#eaeaea"
 
 colors: *rasmus

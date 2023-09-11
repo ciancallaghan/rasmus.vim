@@ -8,29 +8,55 @@ if exists("syntax on")
 	syntax reset
 endif
 
-let g:colors_name="rasmus"
+let colors_name = "rasmus"
 
-" Basic
-let s:bg             = { "gui": "#1a1a19", "cterm": "0" }
-let s:fg             = { "gui": "#d1d1d1", "cterm": "188" } 
-" Normal
-let s:black          = { "gui": "#333332", "cterm": "0" }
-let s:red            = { "gui": "#ff968c", "cterm": "210" }
-let s:green          = { "gui": "#61957f", "cterm": "79" }
-let s:yellow         = { "gui": "#ffc591", "cterm": "209" }
-let s:blue           = { "gui": "#8db4d4", "cterm": "111" }
-let s:magenta        = { "gui": "#de9bc8", "cterm": "176" }
-let s:cyan           = { "gui": "#7bb099", "cterm": "122" }
-let s:white          = { "gui": "#d1d1d1", "cterm": "188" }
-" Bright
-let s:bright_black   = { "gui": "#4c4c4b", "cterm": "0" }
-let s:bright_red     = { "gui": "#ffafa5", "cterm": "210" }
-let s:bright_green   = { "gui": "#7aae98", "cterm": "79" }
-let s:bright_yellow  = { "gui": "#ffdeaa", "cterm": "209" }
-let s:bright_blue    = { "gui": "#a6cded", "cterm": "111" }
-let s:bright_magenta = { "gui": "#f7b4e1", "cterm": "176" }
-let s:bright_cyan    = { "gui": "#94c9b2", "cterm": "122" }
-let s:bright_white   = { "gui": "#eaeaea", "cterm": "188" }
+let g:rasmus_monochrome = get(g:, "rasmus_monochrome", 0)
+
+if g:rasmus_monochrome == 1
+	" Basic
+	let s:bg             = { "gui": "#1a1a19", "cterm": "0" }
+	let s:fg             = { "gui": "#d1d1d1", "cterm": "188" }
+	" Normal
+	let s:black          = { "gui": "#333332", "cterm": "0" }
+	let s:red            = { "gui": "#c5c5c5", "cterm": "251" }
+	let s:green          = { "gui": "#d0d0d0", "cterm": "252" }
+	let s:yellow         = { "gui": "#dedede", "cterm": "253" }
+	let s:blue           = { "gui": "#b3b3b3", "cterm": "249" }
+	let s:magenta        = { "gui": "#bcbcbc", "cterm": "250" }
+	let s:cyan           = { "gui": "#b3b3b3", "cterm": "249" }
+	let s:white          = { "gui": "#d1d1d1", "cterm": "252" }
+	" Bright
+	let s:bright_black   = { "gui": "#4c4c4b", "cterm": "239" }
+	let s:bright_red     = { "gui": "#d2d2d2", "cterm": "253" }
+	let s:bright_green   = { "gui": "#e9e9e9", "cterm": "254" }
+	let s:bright_yellow  = { "gui": "#f7f7f7", "cterm": "231" }
+	let s:bright_blue    = { "gui": "#cccccc", "cterm": "251" }
+	let s:bright_magenta = { "gui": "#d5d5d5", "cterm": "253" }
+	let s:bright_cyan    = { "gui": "#cccccc", "cterm": "251" }
+	let s:bright_white   = { "gui": "#eaeaea", "cterm": "255" }
+else
+	" Basic
+	let s:bg             = { "gui": "#1a1a19", "cterm": "0" }
+	let s:fg             = { "gui": "#d1d1d1", "cterm": "188" } 
+	" Normal
+	let s:black          = { "gui": "#333332", "cterm": "0" }
+	let s:red            = { "gui": "#ff968c", "cterm": "210" }
+	let s:green          = { "gui": "#61957f", "cterm": "79" }
+	let s:yellow         = { "gui": "#ffc591", "cterm": "209" }
+	let s:blue           = { "gui": "#8db4d4", "cterm": "111" }
+	let s:magenta        = { "gui": "#de9bc8", "cterm": "176" }
+	let s:cyan           = { "gui": "#7bb099", "cterm": "122" }
+	let s:white          = { "gui": "#d1d1d1", "cterm": "188" }
+	" Bright
+	let s:bright_black   = { "gui": "#4c4c4b", "cterm": "0" }
+	let s:bright_red     = { "gui": "#ffafa5", "cterm": "210" }
+	let s:bright_green   = { "gui": "#7aae98", "cterm": "79" }
+	let s:bright_yellow  = { "gui": "#ffdeaa", "cterm": "209" }
+	let s:bright_blue    = { "gui": "#a6cded", "cterm": "111" }
+	let s:bright_magenta = { "gui": "#f7b4e1", "cterm": "176" }
+	let s:bright_cyan    = { "gui": "#94c9b2", "cterm": "122" }
+	let s:bright_white   = { "gui": "#eaeaea", "cterm": "188" }
+endif
 " Greys
 let s:grey01         = { "gui": "#222221", "cterm": "234" }
 let s:grey02         = { "gui": "#2a2a29", "cterm": "235" }
