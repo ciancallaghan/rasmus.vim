@@ -10,9 +10,9 @@ endif
 
 let colors_name = "rasmus"
 
-let g:rasmus_monochrome = get(g:, "rasmus_monochrome", 0)
+let g:rasmus_variant = get(g:, "rasmus_variant", "")
 
-if g:rasmus_monochrome == 1
+if g:rasmus_variant == "monochrome"
 	" Basic
 	let s:bg             = { "gui": "#1a1a19", "cterm": "0" }
 	let s:fg             = { "gui": "#d1d1d1", "cterm": "188" }
