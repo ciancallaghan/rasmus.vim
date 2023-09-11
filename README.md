@@ -21,7 +21,7 @@ colorscheme rasmus
 
 To set rasmus to monochrome variant add to your vimrc:
 ```
-let g:rasmus_variant=1
+let g:rasmus_variant = "monochrome"
 ```
 Make sure to put it before you set the colorscheme, otherwise it wont work.
 
