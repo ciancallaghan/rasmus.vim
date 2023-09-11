@@ -17,10 +17,20 @@ Enable the colorscheme:
 colorscheme rasmus
 ```
 
+## Options
+
+To set rasmus to monochrome mode add to your vimrc:
+```
+let g:rasmus_monochrome=1
+```
+Make sure to put it before you set the colorscheme, otherwise it wont work.
+
 ## Issues
 
-Since there are only a limited number of cterm colours it's recommended to set `termguicolors`.  
-The theme works without but the colours used are just an approximation. If you have a recommendation as to which colour fits better feel free to let me know.
+Since there are only a limited number of cterm colours it's recommended to set
+`termguicolors`.  
+The theme works without but the colours used are just an approximation. If you
+have a recommendation as to which colour fits better feel free to let me know.
 
 ## Credits
 
