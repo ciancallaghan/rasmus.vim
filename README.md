@@ -1,6 +1,6 @@
 # Rasmus
 
-A colorscheme for vim. This is a vimscript port of the theme [Rasmus](https://github.com/kvrohit/rasmus.nvim").
+A colorscheme for vim. This is a vimscript port of the theme [Rasmus](https://github.com/kvrohit/rasmus.nvim).
 
 ## Installation
 
@@ -34,4 +34,4 @@ have a recommendation as to which colour fits better feel free to let me know.
 
 ## Credits
 
-* The original author of the [rasmus](https://github.com/kvrohit/rasmus.nvim") theme.
+* The original author of the [rasmus](https://github.com/kvrohit/rasmus.nvim) theme.
